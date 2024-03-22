@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() {
+	std::cout << "halo semangat pagi" << std::endl;
+	std::cout << "apakah bisa\n";
+	std::cout << "rill kah";
+	/*gunakan ; untuk setiap baris body
+	atau istilahnya adalah titik di dalam suatu
+	kalimat di program*/
+	std::cout << "akhir kalimat";
+	std::cin.get();
+	return 0;
+}
