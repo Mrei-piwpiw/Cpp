@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main(){
+	/* fungsi di pemrograman
+	mengunakn arah dari kiri ke kanan
+	misal menggunakan x=10
+	bukan x+1 = 11
+	tapi 11=x+1*/
+	int a = 100;
+	std::cout << a << std::endl;
+	std::cin.get();
+	return 0;
+}
