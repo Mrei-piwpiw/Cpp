@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main() {
+
+	// bilangan bulat
+	int a = 5;
+	long b = 6;
+	short c = 7;
+
+	//bilangan decimal
+	float d = 1.0;
+	double e = 2.5;
+
+	//character
+	char f = 'a';
+
+	//boolean
+	bool g = true / false;
+
+	std::cout << a << std::endl;
+	std::cout << sizeof(a) << "byte" << std::endl;
+	std::cout << std::numeric_limits<int>::max() << std::endl;
+	std::cout << std::numeric_limits<int>::min() << std::endl;
+	return 0;
+}
