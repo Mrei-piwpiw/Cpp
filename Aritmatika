@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	/*untuk hasil dibelakang koma pastikan salah satu data merupakan float atau double
+	dan pada deklarasi hasil merupakan double atau float juga*/
+
+	// operator = +, -, *, /, %
+	int a = 7;
+	int b = 4;
+
+	int hasil;
+	 
+	//penjumlahan
+	hasil = a + b;
+	cout << a << "+" << b << "=" << hasil << endl;
+
+	//pengurangan
+	hasil = a - b;
+	cout << a << "-" << b << "=" << hasil << endl;
+
+	//perkalian
+	hasil = a * b;
+	cout << a << "x" << b << "=" << hasil << endl;
+
+	//pembagian
+	hasil = a / b;
+	cout << a << "/" << b << "=" << hasil << endl;
+
+	//modulus
+	hasil = a % b;
+	cout << a << "%" << b << "=" << hasil << endl;
+	/* bila dalam suatu program harus dipisahkan antara modulus dan pembagian
+	karena bila menggunakan float atau double maka hasil di modulus tidak akan keluar
+	atau pada modulus tidak bisa digunakan di float atau koma*/
+
+	// urutan eksekusi
+	hasil = (a + b) * a;
+	cout << hasil << endl;
+	cin.get();
+	return 0;
+}
