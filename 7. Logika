@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+	int a = 3;
+	int b = 4;
+
+	bool hasil;
+	 //operator logika : not, and, or
+	// not
+	hasil = !(a == 3);
+	std::cout << hasil << endl;
+
+	// and : kedua nilai harus benar untuk menghasilkan true
+	cout << "hasil untuk and" << endl;
+	hasil = (a == 3) and (b == 4); //true and true
+	std::cout << hasil << endl;
+	hasil = (a == 3) and (b == 5); //true and false
+	std::cout << hasil << endl;
+	hasil = (a == 2) && (b == 4); //false and true
+	std::cout << hasil << endl;
+	hasil = (a == 1) && (b == 1); //false and false
+	std::cout << hasil << endl;
+
+	//or : salah satu nilai benar untuk menghasilkan true
+	cout << "hasil untuk or" << endl;
+	hasil = (a == 3) or (b == 4); //true and true
+	std::cout << hasil << endl;
+	hasil = (a == 3) or (b == 5); //true and false
+	std::cout << hasil << endl;
+	hasil = (a == 2) || (b == 4); //false and true
+	std::cout << hasil << endl;
+	hasil = (a == 1) || (b == 1); //false and false
+	std::cout << hasil << endl;
+
+	cin.get();
+	return 0;
+}
