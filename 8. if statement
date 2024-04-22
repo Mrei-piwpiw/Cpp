@@ -1,0 +1,12 @@
+#include<iostream>
+
+int.main(){
+int a;
+std::cout << "masukkan angka :";
+std::cin>> a;
+
+if(a > 1){
+std::cout << "benar" << std::endl;
+}
+std::cout << "program selesai" << std::endl;
+}
