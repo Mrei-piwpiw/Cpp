@@ -1,0 +1,15 @@
+#include<iostream>
+int main(){
+int a;
+std::cout << "masukkan angka: ";
+std::cin>> a;
+
+if(a== 3){
+std::cout << "angka ini adalah 3";}
+else if(a == 4){
+std::cout << "angka ini adalah 4";}
+else if(a == 5){
+std::cout << "angka ini adalah 5";}
+else{std::cout << "angka ini bukan 3, 4, 5";}
+
+std::cout << "program selesai";
